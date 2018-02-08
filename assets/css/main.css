@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'ThaiSansNeue',Helvetica,Arial,sans-serif;
+}
+
+body {
+  /*background-position:center;*/
+  background-color: #fff;
+  font-weight: normal;
+}
+body #wrapper {
+  background-color: #F7F8FA !important;
+}
+body input, body textarea, body select {
+  color: #111 !important;
+  font-size: 20px !important;
+}
+body select {
+  padding: 2px;
+  font-size: 18px !important;
+}
+body button {
+  font-size: 20px !important;
+}
+body .panel-group {
+  font-size: 19px;
+}
+body .panel-group .panel-heading h4 {
+  font-size: 19px;
+  font-weight: bold;
+}
+body .head_txt1 {
+  padding-top: 5px;
+  background-color: #666666;
+  font-size: 24px;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.3) 0px 3px 3px;
+}
+
+ul.nav-tabs > li > a {
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  background-color: #f1f5f7 !important;
+  color: #959797 !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ul.nav-tabs > li.active a {
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 1px #eee solid !important;
+  border-left: 1px #eee solid !important;
+  border-right: 1px #eee solid !important;
+  background-color: #FFF !important;
+  color: #333 !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.table thead, .table tbody, .table-responsive {
+  font-size: 18px !important;
+}
+
+.head_menu {
+  padding: 5px;
+  margin-left: 55px;
+  margin-top: -15px;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: #000;
+}
+.head_menu li.active a {
+  background-color: #dfe3e2;
+  color: #000;
+}
+.head_menu li.active a:hover {
+  background-color: #dfe3e2;
+  color: #000;
+}
+
+.modal, .modal-title {
+  font-size: 20px;
+}
+.modal h4, .modal-title h4 {
+  font-size: 20px;
+}

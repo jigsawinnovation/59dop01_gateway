@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'ThaiSansNeue';
+  src: url("../../../fonts/ThaiSansNeuev1.0/OpenTypeCFF/ThaiSansNeue-Regular.otf");
+  src: url("../../../fonts/ThaiSansNeuev1.0/ThaiSansNeue-Regular.eot") format("embedded-opentype"), url("../../../fonts/ThaiSansNeuev1.0/ThaiSansNeue-Regular.woff") format("woff"), url("../../../fonts/ThaiSansNeuev1.0/ThaiSansNeue-Regular.woff2") format("woff2"), url("../../../fonts/ThaiSansNeuev1.0/TrueType/ThaiSansNeue-Regular.ttf") format("truetype"), url("../../../fonts/ThaiSansNeuev1.0/ThaiSansNeue-Regular.svg#ThaiSansNeue") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

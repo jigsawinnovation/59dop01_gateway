@@ -1,0 +1,92 @@
+/*
+$bg_main: #FF7A77;
+
+$main_nav: #FE7E7B;
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'ThaiSansNeue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  /*background-position:center;*/
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-color: $main-bg-primary;*/
+  color: #E2EFFF;
+  background-color: #252f31;
+}
+body .main {
+  /* Remove the navbar's default rounded borders and increase the bottom margin */
+  /* Add a gray background color and some padding to the footer */
+}
+body .main .navbar {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+}
+body .main .navbar .profile {
+  margin-left: 3px;
+  border: 4px #A2CDCF solid;
+}
+body .main .navbar .title {
+  letter-spacing: 3px;
+  font-size: 38px;
+  font-weight: bold;
+  /* border-bottom: 1px #D4CFCF solid; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+body .main .navbar .navbar-right a {
+  color: #E2EFFF !important;
+}
+body .main .navbar #myNavbar ul li a:hover {
+  font-weight: bold;
+  color: #fff !important;
+}
+body .main .navbar #myNavbar ul li:nth-child(2), body .main .navbar #myNavbar ul li:nth-child(3) {
+  margin-top: 4px;
+}
+body .main footer {
+  font-size: 18px;
+  padding: 25px;
+}
+body .main .container .panel {
+  min-height: 250px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(106, 225, 239, 0.15);
+  @border-radius (10%);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 0;
+  /*  background-color: #32931F; */
+}
+body .main .container .panel:hover {
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  text-decoration: none;
+  font-weight: bold;
+}
+body .main .container .panel .panel-footer {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  /* border: 1px #f00 solid; */
+  height: 80px;
+  color: #fff;
+  border: 0;
+}

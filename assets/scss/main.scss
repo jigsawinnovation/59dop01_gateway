@@ -1,0 +1,114 @@
+@import "config";
+* {
+    padding:0px;
+    margin:0px;
+    //color: $font_primary !important;
+    font-family: 'ThaiSansNeue',Helvetica,Arial,sans-serif;
+}
+
+body {
+    // background: image-url('image43.jpg');
+    //background-repeat:no-repeat;
+    /*background-position:center;*/
+    //background-size: cover;  
+    //-moz-background-size: cover;
+    //-webkit-background-size: cover;
+    //-o-background-size: cover;
+    //background-size: cover;
+ 
+    //background-color: $bg-main;
+    background-color: #fff;
+    font-weight: normal;
+
+    #wrapper {
+        background-color: #F7F8FA !important;
+    }
+    input,textarea,select {
+        color: #111 !important;
+        font-size: 20px !important;
+    }
+    select {
+        padding: 2px;
+        font-size: 18px !important;
+    }
+    button {
+      font-size: 20px !important;  
+    }
+    .panel-group {
+        font-size: 19px;
+        .panel-heading h4{
+            font-size: 19px;
+            font-weight: bold;     
+        }
+    }
+    .ibox-content {
+        //border-top: 4px #C6D4D6 solid !important;
+    }
+    .head_txt1 {
+        padding-top: 5px;
+        background-color: #666666;
+        font-size: 24px;
+        font-weight: bold;
+        -webkit-background-clip: text;
+            -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: rgba(255,255,255,0.3) 0px 3px 3px;
+    }
+}
+
+ul.nav-tabs > li{
+    > a{
+        font-size: 20px;
+        font-weight: bold;
+        //border-top: 1px #eee solid !important;
+        //border-left: 1px #eee solid !important;
+        //border-right: 1px #eee solid !important;
+        border: 0;
+        background-color: #f1f5f7 !important;
+        color: #959797 !important;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    &.active{
+        a{
+            font-size: 20px;
+            font-weight: bold;
+            border-top: 1px #eee solid !important;
+            border-left: 1px #eee solid !important;
+            border-right: 1px #eee solid !important;
+            //background-color: #3D5263 !important;
+            background-color: #FFF !important;
+            color: #333 !important;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
+.table thead,.table tbody,.table-responsive, {
+    font-size: 18px !important;
+}
+
+.head_menu {
+  padding: 5px;
+  margin-left: 55px;
+  margin-top: -15px;
+  font-size: 22px;
+  background-color: rgba(255,255,255,0.9) !important;
+  color: #000;
+  li.active a {
+    background-color: #dfe3e2;
+    color: #000;
+  }
+  li.active a:hover {
+    background-color: #dfe3e2;
+    color: #000;
+  }
+}
+
+.modal,.modal-title {
+    font-size: 20px;
+    h4 {
+       font-size: 20px; 
+    }
+}

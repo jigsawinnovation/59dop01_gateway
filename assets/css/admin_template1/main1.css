@@ -1,0 +1,61 @@
+/*
+$bg_main: #FF7A77;
+
+$main_nav: #FE7E7B;
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'ThaiSansNeue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  /*background-position:center;*/
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-color: $main-bg-primary;*/
+  color: #333;
+  background-color: #252f31;
+}
+body .main-sidebar {
+  background-color: rgba(172, 204, 208, 0.5) !important;
+}
+body .main-header a.logo {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 30px;
+}
+body .main-header nav {
+  background-color: rgba(172, 204, 208, 0.3) !important;
+}
+body .content-wrapper .content-header .breadcrumb {
+  font-size: 16px;
+}
+body .content-wrapper .content {
+  font-size: 16px;
+}
+body .sidebar .user-panel .pull-left.info {
+  font-size: 17px;
+}
+body .sidebar .user-panel .pull-left.info a {
+  font-size: 15px;
+}
+body .sidebar .sidebar-menu .header {
+  background-color: rgba(172, 204, 208, 0.9) !important;
+  font-size: 18px;
+}
+body .sidebar .sidebar-menu > li {
+  font-size: 15px;
+  /*
+  .pull-right-container {
+      margin-right: -5px;
+  }
+  */
+}
+body input, body textarea, body select {
+  color: #000 !important;
+  font-size: 20px !important;
+}
